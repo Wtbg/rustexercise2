@@ -5,9 +5,7 @@ mod my_rc;
 use my_stack::SimpleStack;
 #[allow(unused_imports)]
 use my_rc::MyRc;
-fn main() {
-    println!("Hello, world!");
-}
+fn main() {}
 
 #[cfg(test)]
 mod tests {
